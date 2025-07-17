@@ -252,8 +252,85 @@ nav{
 .foot ul li{
     list-style: none;
 }
+/*small device*/
 @media screen and (max-width:768px) {
     nav{
+        flex-direction: column;
+        margin: 0px auto;
+       
+    }
+
+    .programmer{
+        align-items: center;
+        background-image: repeat;
+        background-size:  cover;
+        margin:0px;
+    }
+    .programmer_heading{
+        text-align: center;
+    }
+    .programmer img{
+        width: 100%;
+        align-content: center;
+    }
+    .programer-info{
+        width: 100%;
+    }
+
+    .developer{
+        height: 100%;
+        width: 70%;
+        text-align: center;
+        margin: 0px;
+    }
+    .inspiritaion iframe{
+        width: 80%;
+    }
+    .odd{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding:6px;
+    }
+    .even{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .developer-info{
+    background-color: white;
+    border-radius:16px ;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    margin: 5px 0px 9px;
+
+}
+.inspiritaion{
+    margin: 5px auto;
+    padding: 5px;
+}
+.target-container{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.support{
+    width: 70%;
+   margin: 0 auto;
+}
+.foot{
+    width: 97%;
+    padding: 5px 0px;
+    margin: 5px 1px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+       nav{
         margin: 0px auto;
        
     }
@@ -310,13 +387,16 @@ nav{
     padding: 5px;
 }
 .target-container{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2 ,2fr);
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
 .support{
     width: 70%;
-   margin: 0;
+   margin: 0 auto;
 }
 .foot{
     width: 97%;
@@ -325,5 +405,8 @@ nav{
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.developer{
+    margin: 6px auto;
 }
 }
