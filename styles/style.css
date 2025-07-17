@@ -29,3 +29,41 @@ nav{
     box-shadow: none;
     background-color: white;
 }
+/* main programmer section*/
+.programmer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.programer-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 778px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.programmer_description{
+    font-size: 1rem;
+}
+.programmer_heading{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.programmerbtn{
+    background-color: #0D1321;
+    color: white;
+    height: 23 px;
+    width: 168px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.programmer{
+    background-image: url(../assets/Hero-bg.png);
+    padding: 60px;
+    margin: 10px 0 20px;
+}
