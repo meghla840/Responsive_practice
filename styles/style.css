@@ -40,16 +40,16 @@ nav{
 .programer-info{
     display: flex;
     flex-direction: column;
-    max-width: 778px;
+    max-width: 798px;
     height: auto;
     justify-content: center;
     align-items: center;
 }
 .programmer_description{
-    font-size: 1rem;
+    font-size: .7rem;
 }
 .programmer_heading{
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 .programmerbtn{
@@ -98,6 +98,9 @@ nav{
     font-size:1.2rem ;
     font-weight: 400;
     line-height: normal;
+}
+.developer-ans{
+    font-size: .9rem;
 }
 .developer-speech{
     font-size: .7rem;
@@ -222,6 +225,7 @@ nav{
     gap: 15px;
     align-items: center;
     background-image: url(../assets/handshake.jpg) ;
+    background-size: cover;
     margin: 20px 290px;
     border-radius: 8px;
     padding: 50px;
@@ -234,4 +238,92 @@ nav{
     font-size: 1.7rem;
     font-weight: 600;
 
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 243, 243);
+    padding: 5px 20px;
+}
+.foot ul{
+    display: flex;
+    gap:9px
+}
+.foot ul li{
+    list-style: none;
+}
+@media screen and (max-width:768px) {
+    nav{
+        margin: 0px auto;
+       
+    }
+
+    .programmer{
+        align-items: center;
+        background-image: repeat;
+        background-size: 100% cover;
+        margin:0px;
+    }
+    .programmer_heading{
+        text-align: center;
+    }
+    .programmer img{
+        width: 100%;
+        align-content: center;
+    }
+    .programer-info{
+        width: 100%;
+    }
+
+    .developer{
+        height: 100%;
+        width: 70%;
+        text-align: center;
+        margin: 0px;
+    }
+    .inspiritaion iframe{
+        width: 80%;
+    }
+    .odd{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding:6px;
+    }
+    .even{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .developer-info{
+    background-color: white;
+    border-radius:16px ;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    margin: 5px 0px 9px;
+
+}
+.inspiritaion{
+    margin: 5px auto;
+    padding: 5px;
+}
+.target-container{
+    flex-direction: column;
+    gap: 10px;
+}
+
+.support{
+    width: 70%;
+   margin: 0;
+}
+.foot{
+    width: 97%;
+    padding: 5px 0px;
+    margin: 5px 1px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 }
