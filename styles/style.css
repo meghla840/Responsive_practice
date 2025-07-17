@@ -111,3 +111,24 @@ nav{
     border: .8px solid black;
 
 }
+/* inspiration section */
+.inspiritaion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin: 10px auto;
+}
+.inspiritaion p{
+ font-size: .7rem;
+ color: #0D1321;
+ font-weight: 300;
+}
+
+.inspiritaion h3{
+ font-size: 1rem;
+ color: #0D1321;
+ font-weight: 600;
+}
