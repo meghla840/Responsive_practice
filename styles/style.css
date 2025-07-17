@@ -121,18 +121,19 @@ nav{
     gap: 10px;
     margin: 10px auto;
 }
-.inspiritaion p ,.targets p, .target p{
+.inspiritaion p ,.targets p, .target p , .next_target p{
  font-size: .7rem;
  color: #0D1321;
  font-weight: 300;
 }
 
-.inspiritaion h3 , .targets h3 , .target h3{
+.inspiritaion h3 , .targets h3 , .target h3 , .next_target h3{
  font-size: 1rem;
  color: #0D1321;
  font-weight: 600;
 }
 /* targer section*/
+
 .targets{
     display: flex;
     flex-direction: column;
@@ -148,25 +149,65 @@ nav{
 
 }
 .target{
-    border: 1px solid black ;
-    width: 190px;
+    
+    
     margin-left: 25px;
     padding: 15px;
     text-align: justify;
-    border-radius: 8px;
-    box-shadow: 2px 2px #646c7d;
+    
     
 
 }
 .targets h3{
     line-height: 0%;
+    
 }
 .t1{
     background-color: rgb(163, 163, 209);
+    width: 190px;
+    border: 1px solid black ;
+    border-radius: 8px;
+    box-shadow: 2px 2px #646c7d;
 }
 .t2{
     background-color: #6584c6;
+    width: 190px;
+    border: 1px solid black ;
+    border-radius: 8px;
+    box-shadow: 2px 2px #646c7d;
 }
 .t3{
     background-color: rgb(219, 205, 187);
+    width: 190px;
+    border: 1px solid black ;
+    border-radius: 8px;
+    box-shadow: 2px 2px #646c7d;
+}
+/*current target*/
+.next_target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 15PX;
+    gap: 1px;
+}
+.all-target{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.target-c{
+    display: flex;
+    gap:15px ;
+    background-color: #dde0e8;
+    border: .9px solid;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.target-c img{
+    width: 100px;
+    height: 100px;
 }
