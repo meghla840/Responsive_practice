@@ -121,13 +121,15 @@ nav{
     gap: 10px;
     margin: 10px auto;
 }
-.inspiritaion p ,.targets p, .target p , .next_target p{
+.inspiritaion p ,.targets p, .target p , .next_target p
+,.support p{
  font-size: .7rem;
  color: #0D1321;
  font-weight: 300;
 }
 
-.inspiritaion h3 , .targets h3 , .target h3 , .next_target h3{
+.inspiritaion h3 , .targets h3 , .target h3 , .next_target h3
+, .support h3{
  font-size: 1rem;
  color: #0D1321;
  font-weight: 600;
@@ -210,4 +212,26 @@ nav{
 .target-c img{
     width: 100px;
     height: 100px;
+}
+
+/* support section */
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    background-image: url(../assets/handshake.jpg) ;
+    margin: 20px 290px;
+    border-radius: 8px;
+    padding: 50px;
+}
+.support p{
+    color: white;
+}
+.support h3{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+
 }
