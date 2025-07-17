@@ -121,14 +121,52 @@ nav{
     gap: 10px;
     margin: 10px auto;
 }
-.inspiritaion p{
+.inspiritaion p ,.targets p, .target p{
  font-size: .7rem;
  color: #0D1321;
  font-weight: 300;
 }
 
-.inspiritaion h3{
+.inspiritaion h3 , .targets h3 , .target h3{
  font-size: 1rem;
  color: #0D1321;
  font-weight: 600;
+}
+/* targer section*/
+.targets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin: 20px auto;
+    
+}
+.target-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.target{
+    border: 1px solid black ;
+    width: 190px;
+    margin-left: 25px;
+    padding: 15px;
+    text-align: justify;
+    border-radius: 8px;
+    box-shadow: 2px 2px #646c7d;
+    
+
+}
+.targets h3{
+    line-height: 0%;
+}
+.t1{
+    background-color: rgb(163, 163, 209);
+}
+.t2{
+    background-color: #6584c6;
+}
+.t3{
+    background-color: rgb(219, 205, 187);
 }
