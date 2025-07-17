@@ -67,3 +67,47 @@ nav{
     padding: 60px;
     margin: 10px 0 20px;
 }
+/*developer Section */
+.developer{
+    height: 1100px;
+    width: 840px;
+    padding: 80px 97px;
+    margin: 50px auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    text-align: center;
+}
+.developer-info{
+    display: flex;
+    gap: 9px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    background-color: white;
+    border-radius:16px ;
+    width: 700px;
+    height: 200px;
+    padding: 48px;
+    margin: 10px 0 10px;
+
+}
+.developer-thoughts{
+    color: rgba(13, 19, 33, 0.7);
+    font-size:1.2rem ;
+    font-weight: 400;
+    line-height: normal;
+}
+.developer-speech{
+    font-size: .7rem;
+    font-weight: 300;
+    color: #0D1321;
+}
+.devloper-learn{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #0D1321;
+    border: .8px solid black;
+
+}
